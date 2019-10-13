@@ -12,6 +12,12 @@ var scores,roundScores,activePlayer,dice,count=0,preScore,win,gamePlay=1;
 
 
 reset();
+var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+		var element = document.getElementById('text');
+		if (isMobile) {
+  			alert("rotate your Mobile");
+		}
+		}
 
 
 document.querySelector('#current-'+activePlayer).textContent=dice;
