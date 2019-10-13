@@ -84,7 +84,10 @@ function btn(){
     }else{
         //next player
         nextPlayer();
-        alert('you got 1');
+        setTimeout(()=>{
+            alert('you got 1');
+        },300)
+        
        
     }
     
