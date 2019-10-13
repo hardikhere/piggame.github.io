@@ -23,9 +23,6 @@ document.querySelector('#current-'+activePlayer).textContent=dice;
 //console.log(x);
 
 function reset(){
-      var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-      var element = document.getElementById('text');
-       if (isMobile) alert("rotate your Mobile");
      win=parseInt(prompt('enter the winning score',"0"),"10");
     if(isNaN(win)){
         alert('please enter valid win score');
