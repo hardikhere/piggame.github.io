@@ -10,6 +10,10 @@ GAME RULES:
 */
 var scores,roundScores,activePlayer,dice,count=0,preScore,win,gamePlay=1;
 
+if(window.innerHeight > window.innerWidth){
+	alert("Please rotate the mobile to landscape mode");
+}
+
 
 reset();
 
